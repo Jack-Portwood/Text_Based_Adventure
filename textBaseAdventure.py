@@ -31,7 +31,14 @@ while response not in direction:
     if response == "forwards":
         print(""+name+ " trudged through the dank bog for days, the mountain did no appear any closer," +name+ "succumb to exhaustion and was consumed by the bog.")
         quit("Game Over...\n and thus draws to its natural conclusion the tale of " +name+ " the intrepid ")
-
     elif response == "backwards":
         print(""+name+ " trudged through the dank bog for days," +name+ "succumb to exhaustion and was consumed by the bog.")
         quit("Game Over...\n and thus draws to its natural conclusion the tale of "  +name+ " the intrepid ")
+    elif response == "left":
+        print("You walk to the point of exhaustion but you make it to the rised ground.. you pass out..")
+    elif response == "right":
+        print("You make it to the dead trees.. just you pass out..")
+
+#Dream 
+print("Crone: I used to be the Princess of these once far lands.. but that wicked Queen took my throne.. please help restore my youth and lands.")
+print("You awaken!")
