@@ -1,6 +1,7 @@
 #Setup 
 decision = ["yes", "no"]
 direction = ["forwards", "backwards", "left", "right"]
+attack = ["thrust", "slash"]
 
 #Introduction 
 print(" You are travelling down a wooded road..\n an old crone waves you down...")
@@ -54,6 +55,31 @@ if response == "yes":
 else:
     print("You await the author the write something......")
     quit("Game Over...\n and thus draws to its natural conclusion the tale of "  +name+ " the intrepid ")
+
+response = ""
+print("stood in the darkness and the bottom on the sharft you see nothing but darkness.. and can hear the dripping of water from the bog above\n")
+while response not in decision:
+    response = raw_input(" Do you light a torch and proceed \nyes/no\n")
+if response == "yes":
+    print ("You ignite a torch and are istanly inguled by bats you bolt down the tunnel till you begin to see light!")
+elif response == "no":
+    print"You carfully edge your way down the tunnel pressing your hand against the wall to guide yourself... it take agggggggees!\n you eventually see a light!"
+
+
+#Mountain Queens Layer lv3
+response = ""
+while response not in direction:
+    print("You peer from the darkness into a vast cavern..\n you relise you are in the hart of the mountian, before you on a garnit plinth.\n elumiated by a single ray of light, lies the Crones diadem..\n ")
+    print("Do race forward grab it a try escape?\n")
+    print("Do edge round to the room hugging the wall to the left?\n")
+    print("Do edge round to the room hugging the wall to the right?\n")
+    response = raw_input("How do you enter the room? \n forwards \n right \n left\n ")
+if response == "forwards":
+    print("as you emerge fromt he passage way a thunderous cackle erupts...\n")
+elif response == "left":
+    print("as you emerge fromt he passage way a thunderous cackle erupts...\n")
+elif response == "right":
+    print("as you emerge fromt he passage way a thunderous cackle erupts...\n")
 
 
 
