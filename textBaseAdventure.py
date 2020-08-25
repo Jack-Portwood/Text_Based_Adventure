@@ -84,7 +84,7 @@ elif response == "right":
 
 response = ""
 while response not in decision:
-    print("MWAHAHA you dear steal the diadem....\n I will destroy you..\n")
+    print("Mountain Queen: MWAHAHA you dear steal the diadem....\n I will destroy you..\n")
     print("The Mountain Queen draws her sword..")
     response = raw_input("Do draw your sword? \n yes/no\n")
 if response == "yes":
@@ -95,7 +95,7 @@ else:
 
 response = ""
 while response not in attack:
-    response = raw_input("Your pary knocks the Queen off balance you go on attack \n thurst/ slash \n ")
+    response = raw_input("Your pary knocks the Queen off balance you go on attack \n thrust/ slash \n ")
 if response == "thrust":
     print("You lundge in thrusting the point of the sword towards the Queens stomach..\n she pary and invites you to come again...")
 else:
@@ -104,7 +104,7 @@ else:
 response = ""
 while response not in attack:
     response = raw_input("You go again.. \n thurst/ slash \n ")
-if response == "thurst":
+if response == "thrust":
     print("You drive forward your aim true, the Queen read your attack and throws you off blanace \n slashing your side as she evades you...\n")
 else:
     print("You swing wildly at the Queen... she ducks and drivers her sword up in to you belly....You are dead.")
@@ -118,7 +118,24 @@ if response == 'thrust':
 else:
     print("You swing your sword...the Queen doesnt react quick enough.... you cleave her head from her shoulders.. your head roll accross the floor..\n her lifeless eye stair blankly at you..\n")
 
-#return the diae
+#return the diadem
+response=""
+while response not in decision:
+    print("You emerge from the mounatin..\n before you is the Crone")
+    print("Crone:" +name+ "you have retreived my diadem...please give it to me to lift the curse\n")
+    response = raw_input("Do you give the Crone the diadem...\n yes/no\n")
+if response == 'yes':
+    print("The Crone places the diadem atop her head...\n she transformes into an over weight Danny Dyer....\n")
+    print("Crone: Nice one govner... that mountian Queen cursed be for mugging her off!..\n")
+    print("Left speachless you watched a fat, balding mid fourties man woddle off....")
+    print("The End")
+    print("Thanks for playing...")
+else:
+    print("The crown stabs you with a blunt rusty blade... you are bleeding out...\n she takes the diamdem.. places it on her head\n")
+    print("She transforms into a real princess\n")
+    print("Princess: You could have been my prince yet you through it away.... she walks off as you slowly bleed out...\n")
+    print("The End")
+    print("Thanks for playing...")
 
 
 
