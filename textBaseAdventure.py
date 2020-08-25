@@ -75,11 +75,11 @@ while response not in direction:
     print("Do edge round to the room hugging the wall to the right?\n")
     response = raw_input("How do you enter the room? \n forwards \n right \n left\n ")
 if response == "forwards":
-    print("as you emerge fromt he passage way a thunderous cackle erupts...\n")
+    print("as you emerge from the passage way a thunderous cackle erupts...\n")
 elif response == "left":
-    print("as you emerge fromt he passage way a thunderous cackle erupts...\n")
+    print("as you emerge from the passage way a thunderous cackle erupts...\n")
 elif response == "right":
-    print("as you emerge fromt he passage way a thunderous cackle erupts...\n")
+    print("as you emerge from the passage way a thunderous cackle erupts...\n")
 
 
 response = ""
@@ -88,7 +88,7 @@ while response not in decision:
     print("The Mountain Queen draws her sword..")
     response = raw_input("Do draw your sword? \n yes/no\n")
 if response == "yes":
-    print("You draw your tursted steel and pray her blow...")
+    print("You draw your tursted steel and pary her blow...")
 else:
     print("You were cleaved clean in two.... You are dead.")
     quit("Game Over...\n and thus draws to its natural conclusion the tale of "  +name+ " the intrepid ")
@@ -99,7 +99,26 @@ while response not in attack:
 if response == "thrust":
     print("You lundge in thrusting the point of the sword towards the Queens stomach..\n she pary and invites you to come again...")
 else:
-    print("You sweep forward a sweep your sword across the Queen...\n she pulls back the tip of your sword knicks her kin...\n With fire in her eye goads you forword..\n ")
+    print("You dash forward and sweep your sword across the Queen...\n she pulls back the tip of your sword knicks her chin...\n With fire in her eye goads you forword..\n ")
+
+response = ""
+while response not in attack:
+    response = raw_input("You go again.. \n thurst/ slash \n ")
+if response == "thurst":
+    print("You drive forward your aim true, the Queen read your attack and throws you off blanace \n slashing your side as she evades you...\n")
+else:
+    print("You swing wildly at the Queen... she ducks and drivers her sword up in to you belly....You are dead.")
+    quit("Game Over...\n and thus draws to its natural conclusion the tale of "  +name+ " the intrepid ")
+
+response = ""
+while response not in attack:
+    response = raw_input("You clutch your side, blood weeps from the open wound...\n You take a deep breath and rush the Queen...\n thrust/slash\n")
+if response == 'thrust':
+    print("Your aim is true you thrust the sword deep into the Queen chest...\n she shreeks and shrivels up... she is dead..")
+else:
+    print("You swing your sword...the Queen doesnt react quick enough.... you cleave her head from her shoulders.. your head roll accross the floor..\n her lifeless eye stair blankly at you..\n")
+
+#return the diae
 
 
 
