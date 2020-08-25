@@ -82,6 +82,27 @@ elif response == "right":
     print("as you emerge fromt he passage way a thunderous cackle erupts...\n")
 
 
+response = ""
+while response not in decision:
+    print("MWAHAHA you dear steal the diadem....\n I will destroy you..\n")
+    print("The Mountain Queen draws her sword..")
+    response = raw_input("Do draw your sword? \n yes/no\n")
+if response == "yes":
+    print("You draw your tursted steel and pray her blow...")
+else:
+    print("You were cleaved clean in two.... You are dead.")
+    quit("Game Over...\n and thus draws to its natural conclusion the tale of "  +name+ " the intrepid ")
+
+response = ""
+while response not in attack:
+    response = raw_input("Your pary knocks the Queen off balance you go on attack \n thurst/ slash \n ")
+if response == "thrust":
+    print("You lundge in thrusting the point of the sword towards the Queens stomach..\n she pary and invites you to come again...")
+else:
+    print("You sweep forward a sweep your sword across the Queen...\n she pulls back the tip of your sword knicks her kin...\n With fire in her eye goads you forword..\n ")
+
+
+
 
 
 
